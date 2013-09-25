@@ -24,6 +24,7 @@
 		DD8E932217F1D87B00F50AB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8E92FA17F1D87A00F50AB0 /* Foundation.framework */; };
 		DD8E932A17F1D87B00F50AB0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD8E932817F1D87B00F50AB0 /* InfoPlist.strings */; };
 		DD8E932D17F1D87B00F50AB0 /* CrystalBallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8E932C17F1D87B00F50AB0 /* CrystalBallTests.m */; };
+		DD8E933A17F2936300F50AB0 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8E933917F2936300F50AB0 /* background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		DD8E932917F1D87B00F50AB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DD8E932B17F1D87B00F50AB0 /* CrystalBallTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrystalBallTests.h; sourceTree = "<group>"; };
 		DD8E932C17F1D87B00F50AB0 /* CrystalBallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrystalBallTests.m; sourceTree = "<group>"; };
+		DD8E933917F2936300F50AB0 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../../../../Downloads/CrystalBall/CrystalBall/background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 		DD8E92FE17F1D87B00F50AB0 /* CrystalBall */ = {
 			isa = PBXGroup;
 			children = (
+				DD8E933617F2915C00F50AB0 /* Images */,
 				DD8E930717F1D87B00F50AB0 /* AppDelegate.h */,
 				DD8E930817F1D87B00F50AB0 /* AppDelegate.m */,
 				DD8E931017F1D87B00F50AB0 /* MainStoryboard_iPhone.storyboard */,
@@ -161,6 +164,14 @@
 				DD8E932817F1D87B00F50AB0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD8E933617F2915C00F50AB0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DD8E933917F2936300F50AB0 /* background.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +251,7 @@
 				DD8E930F17F1D87B00F50AB0 /* Default-568h@2x.png in Resources */,
 				DD8E931217F1D87B00F50AB0 /* MainStoryboard_iPhone.storyboard in Resources */,
 				DD8E931517F1D87B00F50AB0 /* MainStoryboard_iPad.storyboard in Resources */,
+				DD8E933A17F2936300F50AB0 /* background.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +479,7 @@
 				DD8E933217F1D87B00F50AB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD8E933317F1D87B00F50AB0 /* Build configuration list for PBXNativeTarget "CrystalBallTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +488,7 @@
 				DD8E933517F1D87B00F50AB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
