@@ -24,12 +24,8 @@
 		DD8E932217F1D87B00F50AB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8E92FA17F1D87A00F50AB0 /* Foundation.framework */; };
 		DD8E932A17F1D87B00F50AB0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD8E932817F1D87B00F50AB0 /* InfoPlist.strings */; };
 		DD8E932D17F1D87B00F50AB0 /* CrystalBallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8E932C17F1D87B00F50AB0 /* CrystalBallTests.m */; };
-		DD8E934B17F29AB500F50AB0 /* button_bg_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8E934517F29AB500F50AB0 /* button_bg_off@2x.png */; };
-		DD8E934C17F29AB500F50AB0 /* button_bg_on.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8E934617F29AB500F50AB0 /* button_bg_on.png */; };
-		DD8E934D17F29AB500F50AB0 /* button_bg_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8E934717F29AB500F50AB0 /* button_bg_on@2x.png */; };
-		DD8E934E17F29AB500F50AB0 /* button_bg_off.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8E934817F29AB500F50AB0 /* button_bg_off.png */; };
-		DD8E934F17F29AB500F50AB0 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8E934917F29AB500F50AB0 /* background.png */; };
-		DD8E935017F29AB500F50AB0 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8E934A17F29AB500F50AB0 /* background@2x.png */; };
+		DD8E935317F2A18500F50AB0 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8E935117F2A18500F50AB0 /* background.png */; };
+		DD8E935417F2A18500F50AB0 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8E935217F2A18500F50AB0 /* background@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,12 +62,8 @@
 		DD8E932917F1D87B00F50AB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DD8E932B17F1D87B00F50AB0 /* CrystalBallTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrystalBallTests.h; sourceTree = "<group>"; };
 		DD8E932C17F1D87B00F50AB0 /* CrystalBallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrystalBallTests.m; sourceTree = "<group>"; };
-		DD8E934517F29AB500F50AB0 /* button_bg_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_bg_off@2x.png"; sourceTree = "<group>"; };
-		DD8E934617F29AB500F50AB0 /* button_bg_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_bg_on.png; sourceTree = "<group>"; };
-		DD8E934717F29AB500F50AB0 /* button_bg_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_bg_on@2x.png"; sourceTree = "<group>"; };
-		DD8E934817F29AB500F50AB0 /* button_bg_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_bg_off.png; sourceTree = "<group>"; };
-		DD8E934917F29AB500F50AB0 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
-		DD8E934A17F29AB500F50AB0 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		DD8E935117F2A18500F50AB0 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		DD8E935217F2A18500F50AB0 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,12 +171,8 @@
 		DD8E933617F2915C00F50AB0 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				DD8E934517F29AB500F50AB0 /* button_bg_off@2x.png */,
-				DD8E934617F29AB500F50AB0 /* button_bg_on.png */,
-				DD8E934717F29AB500F50AB0 /* button_bg_on@2x.png */,
-				DD8E934817F29AB500F50AB0 /* button_bg_off.png */,
-				DD8E934917F29AB500F50AB0 /* background.png */,
-				DD8E934A17F29AB500F50AB0 /* background@2x.png */,
+				DD8E935117F2A18500F50AB0 /* background.png */,
+				DD8E935217F2A18500F50AB0 /* background@2x.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -266,12 +254,8 @@
 				DD8E930F17F1D87B00F50AB0 /* Default-568h@2x.png in Resources */,
 				DD8E931217F1D87B00F50AB0 /* MainStoryboard_iPhone.storyboard in Resources */,
 				DD8E931517F1D87B00F50AB0 /* MainStoryboard_iPad.storyboard in Resources */,
-				DD8E934B17F29AB500F50AB0 /* button_bg_off@2x.png in Resources */,
-				DD8E934C17F29AB500F50AB0 /* button_bg_on.png in Resources */,
-				DD8E934D17F29AB500F50AB0 /* button_bg_on@2x.png in Resources */,
-				DD8E934E17F29AB500F50AB0 /* button_bg_off.png in Resources */,
-				DD8E934F17F29AB500F50AB0 /* background.png in Resources */,
-				DD8E935017F29AB500F50AB0 /* background@2x.png in Resources */,
+				DD8E935317F2A18500F50AB0 /* background.png in Resources */,
+				DD8E935417F2A18500F50AB0 /* background@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
